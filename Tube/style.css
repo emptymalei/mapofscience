@@ -1,0 +1,43 @@
+body
+    {
+        font-family: Verdana;
+        font-size: 5pt;
+    }
+
+    /* The main DIV for the map */
+    .sci-map
+    {
+        margin: 0;
+        width: 800px;
+        height:650px;
+        background-color: white;
+    }
+
+    /* Text labels */
+    .text
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #legend
+    {
+        float: left;
+        width: 250px;
+        height:400px;
+    }
+
+    #legend div
+    {
+        height: 25px;
+    }
+
+    #legend span
+    {
+        margin: 5px 5px 5px 0;
+    }
+    .sci-map span
+    {
+        margin: 5px 5px 5px 0;
+    }
+ 
