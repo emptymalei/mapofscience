@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- A Template for Non HTML And Busy Scientists: HTML4Scientists; First Created By
+		[OctoKitty](https://github.com/emptymalei)
+		[Open Task Force](https://github.com/opentf)
+        [CosmologyTaskForce](https://github.com/CosmologyTaskForce)
+    -->
+
+    <!-- This template uses HTML Kickstart as the framework. Refer to HTML Kickstart for documentations. -->
+
+
+
+    <!-- META -->
+
+
+
+    <!-- Put Scientist's Name Here -->
+
+    <title>Map of Science | Open Task Force</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+
+
+    <!-- Fill up the keywords, description, author -->
+
+    <meta name="keywords" content="Map of Science, Open Science">
+    <meta name="description" content="Map of Science" />
+    <meta name="author" content="opentf">
+
+
+
+
+
+
+    <!-- Make sure to change this to your own favion. Favicon will be shown as a icon of the browser tab when someone browses this website. -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/kickstart.js"></script>
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+
+
+
+    <!-- Top Main Menu Horizontal -->
+    <ul class="menu mainmenu">
+
+        <!-- current class will be diplayed in a different style. Make sure to add current class to the right menu. -->
+
+
+
+        <!-- You can include more menus, for example some scientists may want to add a page called PRESS/MEDIA/BOOKS -->
+
+
+
+
+
+
+
+
+        <!-- Add some SNS account links or something Can remove this safely -->
+
+        <li class="menusocial">
+
+            <!-- Google Plus profile link!!!! -->
+            <a href="https://github.com/emptymalei/mapofscience" target="_blank">
+                <i class="icon-github icon-2x"></i>
+            </a>
+        </li>
+
+        <!-- VERY IMPORTANT! Change this to the name you pick. For example this can be your name, or your research group. -->
+        <!-- Also change the link of your website -->
+        <li class="sitename">
+            <a href="#">Map of Science By Open Task Force</a>
+        </li>
+
+    </ul>
+
+
+
+
+    <!-- Load a css files for this specific page  -->
+
+
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css" media="all" />
+
+
+    <div class="grid">
+
+
+        <!-- Start of Top Part -->
+        <div class="top">
+
+            <!-- Just remove everything in "top" div and add your own.  -->
+            <!-- Or modify the following part  -->
+
+
+
+            <!-- This DIV is shown at top left of the page -->
+            <div class="col_12 center">
+                <div style="margin-top:2em;">
+                    <h4 class="head1">Visualize Framework of Science</h4>
+                    <h3 class="head2">Map of Science</h3>
+
+
+
+                </div>
+
+            </div>
+            <!-- End of TOP Left DIV -->
+
+
+
+
+        </div>
+        <!-- End of Top Part -->
+
+
+
+
+
+
+        <!-- HR divider -->
+
+        <div class="col_12">
+            <hr class="alt2" />
+        </div>
+
+
+        <!-- Part 2 -->
+
+        <div>
+
+            <div class="col_12">
+
+                <div style="margin-bottom:3em;">
+                    <p class="intro" id="intro2">
+                        <!-- And Introduction Here -->
+                        Draw maps of science, understand the framework of science. To make it more practical, we only draw maps of specific topics.
+                    </p>
+                    <hr class="damp">
+                </div>
+
+
+                <div class="col_12">
+
+                    <h1>Physics</h1>
+
+                    <h4>Stat mech</h4>
+
+                    <p>
+                        <a href="./Tube/statmech.html">Stat mech go underground</a>.
+                    I am aware of that knowing only the terms won't help. I need to connect the knowledge in a systematic way. However, I don't have a very good idea to organize this kind of knowledge. This tube, is just a very simple test.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End of Part 2 -->
+
+
+
+
+
+        <!-- Footer -->
+        <!-- Footer -->
+
+
+
+        <!-- DO NOT MODIFY THE FOLLOWING PART IF YOU HAVE NO IDEA WHAT YOU ARE DOING!!! Create your own footer by modify/add contents in footer.json -->
+        <div class="clear"></div>
+        <div class="col_12">
+            <div id="footer"></div>
+            <script>
+                $.getJSON('config/footer.json', function(data) {
+                    var output = '<ul>';
+                    for (var i in data.foo) {
+                        output += '<li>' + data.foo[i].display + '</li>';
+                    }
+
+                    output += '</ul>';
+                    document.getElementById("footer").innerHTML = output;
+                });
+            </script>
+
+        </div>
+
+        <!-- END OF FOOTER -->
+        <!-- END OF FOOTER -->
+
+
+
+    </div>
+    <!-- End if Grid -->
+
+
+
+
+
+
+
+    <!-- Delete the following tracking code and add your own. I recommend Google Analytics.  -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-47681971-1', 'emptymalei.github.io');
+        ga('send', 'pageview');
+    </script>
+
+
+
+
+
+
+
+    <!-- Don't touch these -->
+</body>
+
+</html>
